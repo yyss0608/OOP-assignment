@@ -31,25 +31,13 @@ class Score
 public:
     Score(){};
     Score(int t, const string u);
-    void currentscore(int score);
-
     void printranking();
-    void settotal(int score);
-    string Getusername(){return username;};
-    int Getscore(){return total;};
-    void storearray(Score s[]);q
 };
 Score::Score(int t, const string u)
 {
     total = t;
     username = u;
-    cout << username;
 }
-void Score::currentscore(int score)
-{
-    total = score;
-}
-
 void Score::printranking()
 {
     cout << "================================================" << endl;
@@ -60,16 +48,6 @@ void Score::printranking()
     cout << "|1\t\t|" << username <<"\t\t|"<< total << endl;
 
     cout << "================================================" << endl;
-}
-void Score::settotal(int score)
-{
-    total = score;
-}
-void Score::storearray(Score s[])
-{
-    int j = 0;
-    s[j] = Score(total, username);
-
 }
 void Sequence::dseq()
 {
