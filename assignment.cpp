@@ -172,9 +172,7 @@ int main(){
     cin >> next;
     j++;
     delete [] b1;
-    delete [] s1;
     Board* b1  = new  Board[20];
-    Score* s1 = new Score[9];
     i=0;
     }
     return 0;
