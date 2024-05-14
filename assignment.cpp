@@ -37,7 +37,7 @@ public:
     void settotal(int score);
     string Getusername(){return username;};
     int Getscore(){return total;};
-    void storearray(Score s[]);
+    void storearray(Score s[]);q
 };
 Score::Score(int t, const string u)
 {
