@@ -3,7 +3,7 @@
 #include <string>
 
 using namespace std;
-
+z
 class Sequence{
     int random_p= rand() % 9;
     int random_n= rand() % 10;
